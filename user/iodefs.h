@@ -1,0 +1,44 @@
+/*
+ * iodefs.h
+ *
+ *  Created on: 15 Mar 2015
+ *      Author: Aidan
+ */
+
+#ifndef USER_IODEFS_H_
+#define USER_IODEFS_H_
+
+#define WSGPIO 0
+
+#define LED_GPIO_0 0
+#define LED_GPIO_MUX PERIPHS_IO_MUX_GPIO0_U
+#define LED_GPIO_FUNC_0 FUNC_GPIO0
+
+#define LED_GPIO_2 2
+#define LED_GPIO_MUX_2 PERIPHS_IO_MUX_GPIO2_U
+#define LED_GPIO_FUNC_2 FUNC_GPIO2
+
+#define LED_GPIO_4 4
+#define LED_GPIO_MUX_4 PERIPHS_IO_MUX_GPIO4_U
+#define LED_GPIO_FUNC_4 FUNC_GPIO4
+
+#define LED_GPIO_5 5
+#define LED_GPIO_MUX_5 PERIPHS_IO_MUX_GPIO5_U
+#define LED_GPIO_FUNC_5 FUNC_GPIO5
+
+#define LED_GPIO_12 12
+#define LED_GPIO_MUX_12 PERIPHS_IO_MUX_MTDI_U
+#define LED_GPIO_FUNC_12 FUNC_GPIO12
+
+#define LED_GPIO_13 13
+#define LED_GPIO_MUX_13 PERIPHS_IO_MUX_MTCK_U
+#define LED_GPIO_FUNC_13 FUNC_GPIO13
+
+#define LED_GPIO_14 14
+#define LED_GPIO_MUX_14 PERIPHS_IO_MUX_MTMS_U
+#define LED_GPIO_FUNC_14 FUNC_GPIO14
+
+
+
+
+#endif /* USER_IODEFS_H_ */

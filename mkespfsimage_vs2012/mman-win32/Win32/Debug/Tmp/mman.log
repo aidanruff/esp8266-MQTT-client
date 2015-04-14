@@ -1,0 +1,15 @@
+﻿Build started 04/03/2015 18:56:20.
+     1>Project "C:\Espressif\examples\esphttpd\mkespfsimage_vs2012\mman-win32\mman.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\Program Files (x86)\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\Tmp\\" /Fd"Win32\Debug\Tmp\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt mman.c
+         mman.c
+       Lib:
+         D:\Program Files (x86)\VC\bin\Lib.exe /OUT:"Win32\Debug\mman.lib" /NOLOGO Win32\Debug\Tmp\mman.obj
+         mman.vcxproj -> C:\Espressif\examples\esphttpd\mkespfsimage_vs2012\mman-win32\Win32\Debug\mman.lib
+     1>Done Building Project "C:\Espressif\examples\esphttpd\mkespfsimage_vs2012\mman-win32\mman.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.40
